@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="28.992" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-09-05T09:20:01" tests="0" file="cypress/e2e/tests/ProductsSearchTest.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Products meeting the search criteria" timestamp="2024-09-05T09:20:01" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Sorting" timestamp="2024-09-05T09:20:01" tests="4" time="20.049" failures="0">
+    <testcase name="Products meeting the search criteria Sorting should check that the products are sorted by Price (Low &gt; High)" time="6.289" classname="should check that the products are sorted by Price (Low &gt; High)">
+    </testcase>
+    <testcase name="Products meeting the search criteria Sorting should check that the products are sorted by Price (High &gt; Low)" time="2.557" classname="should check that the products are sorted by Price (High &gt; Low)">
+    </testcase>
+    <testcase name="Products meeting the search criteria Sorting should check that the products are sorted by Name (A - Z)" time="4.397" classname="should check that the products are sorted by Name (A - Z)">
+    </testcase>
+    <testcase name="Products meeting the search criteria Sorting should check that the products are sorted by Price Name (Z - A)" time="4.901" classname="should check that the products are sorted by Price Name (Z - A)">
+    </testcase>
+  </testsuite>
+  <testsuite name="Categories" timestamp="2024-09-05T09:20:21" tests="2" time="8.775" failures="0">
+    <testcase name="Products meeting the search criteria Categories should filter the search results by category: Cameras" time="4.328" classname="should filter the search results by category: Cameras">
+    </testcase>
+    <testcase name="Products meeting the search criteria Categories should filter the search results by category: Monitors" time="3.845" classname="should filter the search results by category: Monitors">
+    </testcase>
+  </testsuite>
+</testsuites>
